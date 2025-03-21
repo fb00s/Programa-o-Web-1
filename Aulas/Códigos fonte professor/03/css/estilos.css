@@ -1,0 +1,36 @@
+body {
+    margin: 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header {
+    font-size: 2em;
+    font-weight: bold;
+    background-color: aqua;
+    padding: 10px;
+}
+
+footer {
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 5px;
+    font-size: 0.75em;
+}
+
+.classe1 {
+    font-family: 'Courier New', Courier, monospace !important;
+}
+
+p.classe1 {
+    font-weight: bold;
+}
+
+.classe2 {
+    color: blue;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#paragrafo {
+    font-style: italic;
+}

@@ -1,0 +1,67 @@
+@font-face {
+    font-family: 'Minha fonte';
+    src: url('../fonts/WinkySans-VariableFont_wght.ttf');
+}
+
+body {
+    margin: 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header {
+    font-size: 2em;
+    font-weight: bold;
+    background-color: aqua;
+    padding: 10px;
+}
+
+footer {
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 5px;
+    font-size: 0.75em;
+    font-family: 'Minha fonte';
+}
+
+.classe1 {
+    font-family: 'Courier New', Courier, monospace !important;
+}
+
+p.classe1 {
+    font-weight: bold;
+}
+
+.classe2 {
+    color: blue;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#paragrafo {
+    font-style: italic;
+}
+
+table, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 5px;
+}
+
+img {
+    width: 100vw;
+    /*width: 100%;*/
+    /*100% em relação ao elemento-pai*/
+}
+
+#div_img {
+    width: 60vw;
+    border: 2px solid red;
+    height: 50vh;
+    overflow: auto;
+}
+
+.boldonse-regular {
+    font-family: "Boldonse", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
